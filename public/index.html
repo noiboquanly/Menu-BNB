@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bếp Nhà Bà — Vietnamese Cuisine</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a class="brand" href="#home"><strong>Bếp Nhà Bà</strong><small>Vietnamese Cuisine</small></a>
+    <nav>
+      <a class="nav-link" href="#story" data-i18n="navStory">Câu chuyện</a>
+      <a class="nav-link" href="#menu" data-i18n="navMenu">Thực đơn</a>
+      <a class="nav-link" href="#contact" data-i18n="navContact">Liên hệ</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-picker">
+        <button class="language-current" id="languageCurrent" aria-label="Chọn ngôn ngữ"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#DA251D"/><path fill="#FF0" d="M15 4l1.4 4.3H21l-3.7 2.7 1.4 4.4-3.7-2.7-3.7 2.7 1.4-4.4L9 8.3h4.6z"/></svg></span><span class="lang-code">VI</span><svg class="lang-chevron" viewBox="0 0 12 8"><path d="M1 1.5L6 6.5l5-5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="language-menu" id="languageMenu"><button data-lang="vi"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#DA251D"/><path fill="#FF0" d="M15 4l1.4 4.3H21l-3.7 2.7 1.4 4.4-3.7-2.7-3.7 2.7 1.4-4.4L9 8.3h4.6z"/></svg></span><span>Việt</span></button><button data-lang="en"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#21468B"/><path d="M0 0l30 20M30 0L0 20" stroke="#fff" stroke-width="4"/><path fill="#fff" d="M12 0h6v20h-6zM0 7h30v6H0z"/><path fill="#C8102E" d="M13 0h4v20h-4zM0 8h30v4H0z"/></svg></span><span>English</span></button><button data-lang="ko"><span class="flag-icon"><svg viewBox="0 0 36 24" aria-hidden="true">
+<rect width="36" height="24" fill="#fff"/>
+<g transform="translate(18 12) rotate(-33.69)">
+  <path d="M0-5a5 5 0 1 1 0 10 2.5 2.5 0 1 0 0-5 2.5 2.5 0 1 1 0-5z" fill="#CD2E3A"/>
+  <path d="M0 5a5 5 0 1 1 0-10 2.5 2.5 0 1 0 0 5 2.5 2.5 0 1 1 0 5z" fill="#0047A0"/>
+</g>
+<g fill="#111">
+  <g transform="translate(7 5) rotate(-34)"><rect x="-4" y="-2.7" width="8" height="1"/><rect x="-4" y="-.5" width="8" height="1"/><rect x="-4" y="1.7" width="8" height="1"/></g>
+  <g transform="translate(29 19) rotate(-34)"><rect x="-4" y="-2.7" width="3.4" height="1"/><rect x=".6" y="-2.7" width="3.4" height="1"/><rect x="-4" y="-.5" width="8" height="1"/><rect x="-4" y="1.7" width="3.4" height="1"/><rect x=".6" y="1.7" width="3.4" height="1"/></g>
+  <g transform="translate(29 5) rotate(34)"><rect x="-4" y="-2.7" width="3.4" height="1"/><rect x=".6" y="-2.7" width="3.4" height="1"/><rect x="-4" y="-.5" width="3.4" height="1"/><rect x=".6" y="-.5" width="3.4" height="1"/><rect x="-4" y="1.7" width="8" height="1"/></g>
+  <g transform="translate(7 19) rotate(34)"><rect x="-4" y="-2.7" width="8" height="1"/><rect x="-4" y="-.5" width="3.4" height="1"/><rect x=".6" y="-.5" width="3.4" height="1"/><rect x="-4" y="1.7" width="8" height="1"/></g>
+</g></svg></span><span>한국어</span></button><button data-lang="ru"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#fff"/><path fill="#1C57A5" d="M0 6.67h30v6.66H0z"/><path fill="#D52B1E" d="M0 13.33h30V20H0z"/></svg></span><span>Русский</span></button><button data-lang="zh"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#DE2910"/><path fill="#FFDE00" d="M6 3l.9 2.8h3L7.5 7.5l.9 2.8L6 8.6l-2.4 1.7.9-2.8-2.4-1.7h3z"/></svg></span><span>中文</span></button></div>
+      </div>
+      <button class="reserve" data-book data-i18n="reserve">Đặt bàn</button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow" data-i18n="heroEyebrow">Bếp Việt · Vị nhà</div>
+    <h1>Bếp<br><i>Nhà Bà</i></h1>
+    <p data-i18n="heroBody">Một bàn ăn Việt ấm áp giữa Phú Quốc — nơi những món quen được phục vụ với sự chỉn chu, mộc mạc và tinh tế.</p>
+    <a class="discover" href="#menu"><span data-i18n="discover">Khám phá thực đơn</span> ↓</a>
+  </div>
+  <div class="hero-art">
+    <div class="hero-frame"></div>
+    <div class="plate"><div class="plate-inner">
+          <img class="plate-brand-logo" src="/assets/bep-nha-ba-logo-v17.png" alt="Bếp Nhà Bà Vietnamese Cuisine">
+        </div>
+      </div></div>
+  </div>
+</section>
+
+<section id="story" class="story story-v16">
+  <div class="story-heading-wrap">
+    <h2 class="scrub story-main-title" data-i18n="storyTitle">Một bữa cơm mang vị nhà.</h2>
+    <div class="story-status scrub" contenteditable="true" spellcheck="false" data-placeholder="Viết status tại đây..." data-i18n-placeholder="storyPlaceholder"></div>
+  </div>
+  <div class="story-copy">
+    <p class="scrub" data-i18n="storyLead">Từ gỏi cuốn, bún chả Hà Nội đến cá kho tộ, hải sản và những bát canh nóng — thực đơn đi qua nhiều hương vị quen thuộc của bữa cơm Việt.</p>
+    <p class="scrub" data-i18n="storyBody">Bếp Nhà Bà gìn giữ cảm giác thân thuộc của bữa cơm nhà trong một không gian chỉn chu và nhẹ nhàng.</p>
+  </div>
+</section>
+
+<section id="menu" class="menu">
+  <div class="menu-head">
+    
+    <h2 class="scrub menu-main-title" data-i18n="menuTitle">Thực đơn Bếp Nhà Bà</h2>
+  </div>
+  <div class="menu-row row-a"><div id="rowA" class="menu-track"></div></div>
+  <div class="explore-menu premium-explore scrub">
+      <div class="menu-script menu-script-left">Món ngon<br><em>Mỗi ngày</em></div>
+      <div class="premium-explore-center">
+        <div class="premium-kicker"><span data-i18n="menuKicker">TINH HOA ẨM THỰC VIỆT</span></div>
+        <div class="premium-title-wrap">
+          <span class="leaf-mark brand-leaf"><img src="/assets/bnb-brazier-mark.png" alt=""></span>
+          <h3 data-i18n="exploreMenuTitle">KHÁM PHÁ MENU</h3>
+          <span class="leaf-mark brand-leaf mirror"><img src="/assets/bnb-brazier-mark.png" alt=""></span>
+        </div>
+        <button id="exploreMenu"><span data-i18n="viewAll">XEM TẤT CẢ MÓN ĂN</span> <b>→</b></button>
+      </div>
+      <div class="menu-script menu-script-right">Ẩm thực Việt<br><em>Trọn vị yêu thương</em></div>
+    </div>
+  <div class="menu-row row-b"><div id="rowB" class="menu-track"></div></div>
+</section>
+
+<section class="cta">
+  <div>
+    <div class="eyebrow scrub" style="justify-content:center;color:#d8c391" data-i18n="ctaEyebrow">A seat at our table</div>
+    <h2 class="scrub cta-main-title" data-i18n="ctaTitle">Hẹn nhau bên một bữa cơm ngon.</h2>
+    <button class="scrub" data-book data-i18n="reserve">Đặt bàn</button>
+  </div>
+</section>
+</main>
+
+<footer id="contact">
+  <div class="footer-grid scrub">
+    <div><div class="footer-brand">Bếp Nhà Bà<small>Vietnamese Cuisine</small></div></div>
+    <div class="footer-text footer-addresses">
+<b data-i18n="addressLabel">Địa chỉ</b>
+<div class="address-line"><span>01</span><span data-i18n="address1">135 Trần Hưng Đạo, Khu phố 7, Dương Đông, Đặc khu Phú Quốc, tỉnh An Giang, Việt Nam</span></div>
+<div class="address-line"><span>02</span><span data-i18n="address2">Căn SA-03.58 Grand World, tỉnh An Giang, Việt Nam</span></div>
+</div>
+    <div class="footer-text footer-right"><b data-i18n="hotline">Hotline</b><br>0367 789 719</div>
+  </div>
+  <div class="footer-bottom"><span>© Bếp Nhà Bà</span><span><span data-i18n="location">Phú Quốc · Việt Nam</span></span></div>
+</footer>
+
+<div id="bookingModal" class="modal">
+ <div class="modal-card">
+  <div class="modal-head"><div><div class="eyebrow">Reservation</div><h3 data-i18n="reserve">Đặt bàn</h3></div><button class="close" data-close>×</button></div>
+  <form id="bookingForm" class="form">
+   <label><span data-i18n="guestName">Tên khách</span><input name="name" required></label>
+   <label><span data-i18n="phone">Số điện thoại</span><input name="phone" required></label>
+   <label><span data-i18n="guests">Số khách</span><input name="guests" type="number" min="1" value="2" required></label>
+   <button class="submit"><span data-i18n="submitBooking">Gửi yêu cầu đặt bàn</span></button><div id="bookingStatus" class="status"></div>
+  </form>
+ </div>
+</div>
+
+<div id="menuModal" class="modal">
+ <div class="modal-card" style="text-align:center">
+  <div class="eyebrow" style="justify-content:center">Bếp Nhà Bà</div>
+  <h3>Khám phá Menu</h3>
+  <p style="font-size:13px;line-height:1.8;color:#666">Trang menu riêng sẽ được xây ở bước tiếp theo. Phần showcase trên trang chủ vẫn giữ nguyên.</p>
+  <button class="submit" data-menu-close style="margin-top:18px;padding:14px 28px">Đóng</button>
+ </div>
+</div>
+<button class="back-to-top" id="backToTop" aria-label="Cuộn lên đầu trang" title="Lên đầu trang">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M6.5 14.5 12 9l5.5 5.5"/>
+  </svg>
+  <span>TOP</span>
+</button>
+<script src="/app.js"></script>
+
+
+
+</body>
+</html>
