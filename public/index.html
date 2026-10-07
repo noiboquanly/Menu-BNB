@@ -19,7 +19,10 @@
       <a class="nav-link" href="#contact" data-i18n="navContact">Liên hệ</a>
     </nav>
     <div class="header-actions">
-      <div class="language-picker">
+      <button class="order-cart-button" id="orderCartButton" type="button" aria-label="Giỏ món">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L20.4 8H6.1M9 20h.01M17 20h.01"/></svg>
+<span id="orderCartCount">0</span></button>
+<div class="language-picker">
         <button class="language-current" id="languageCurrent" aria-label="Chọn ngôn ngữ"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#DA251D"/><path fill="#FF0" d="M15 4l1.4 4.3H21l-3.7 2.7 1.4 4.4-3.7-2.7-3.7 2.7 1.4-4.4L9 8.3h4.6z"/></svg></span><span class="lang-code">VI</span><svg class="lang-chevron" viewBox="0 0 12 8"><path d="M1 1.5L6 6.5l5-5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
         <div class="language-menu" id="languageMenu"><button data-lang="vi"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#DA251D"/><path fill="#FF0" d="M15 4l1.4 4.3H21l-3.7 2.7 1.4 4.4-3.7-2.7-3.7 2.7 1.4-4.4L9 8.3h4.6z"/></svg></span><span>Việt</span></button><button data-lang="en"><span class="flag-icon"><svg viewBox="0 0 30 20"><rect width="30" height="20" fill="#21468B"/><path d="M0 0l30 20M30 0L0 20" stroke="#fff" stroke-width="4"/><path fill="#fff" d="M12 0h6v20h-6zM0 7h30v6H0z"/><path fill="#C8102E" d="M13 0h4v20h-4zM0 8h30v4H0z"/></svg></span><span>English</span></button><button data-lang="ko"><span class="flag-icon"><svg viewBox="0 0 36 24" aria-hidden="true">
 <rect width="36" height="24" fill="#fff"/>
@@ -138,6 +141,7 @@
   <span>TOP</span>
 </button>
 <script src="/app.js"></script>
+
 
 
 

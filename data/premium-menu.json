@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Phở Bò",
+    "image": "/premium-menu-images/dish-01.jpg",
+    "category": "Khai vị",
+    "price": 100000,
+    "description": "Nước dùng nóng thơm, bánh phở mềm và thịt bò, một hương vị Việt quen thuộc cho bữa ăn ấm lòng.",
+    "pairing": "Rau thơm · Giá · Chanh · Ớt"
+  },
+  {
+    "name": "Gỏi Cuốn",
+    "image": "/premium-menu-images/dish-02.jpg",
+    "category": "Khai vị",
+    "price": 120000,
+    "description": "Cuốn tươi thanh nhẹ với rau thơm và phần nhân hài hòa, dùng cùng nước chấm nhà làm.",
+    "pairing": "Rau thơm · Nước chấm nhà làm · Đậu phộng"
+  },
+  {
+    "name": "Bánh Mì",
+    "image": "/premium-menu-images/dish-03.jpg",
+    "category": "Món Việt",
+    "price": 135000,
+    "description": "Vỏ bánh giòn, phần nhân đậm vị và rau thơm tươi, gọn gàng nhưng trọn vị.",
+    "pairing": "Rau thơm · Đồ chua · Ớt"
+  },
+  {
+    "name": "Thịt Kho Tàu",
+    "image": "/premium-menu-images/dish-04.jpg",
+    "category": "Món Việt",
+    "price": 155000,
+    "description": "Thịt kho mềm, vị mặn ngọt dịu và màu nâu óng, gợi nhớ mâm cơm gia đình.",
+    "pairing": "Cơm trắng · Rau luộc · Dưa chua"
+  },
+  {
+    "name": "Tôm Rim",
+    "image": "/premium-menu-images/dish-05.jpg",
+    "category": "Món Việt",
+    "price": 175000,
+    "description": "Tôm rim săn, thấm vị mặn ngọt, rất hợp dùng cùng cơm nóng.",
+    "pairing": "Cơm trắng · Rau luộc"
+  },
+  {
+    "name": "Bún Thịt Nướng",
+    "image": "/premium-menu-images/dish-06.jpg",
+    "category": "Món Việt",
+    "price": 195000,
+    "description": "Bún tươi, thịt nướng thơm, rau sống và nước mắm pha tạo nên một tô đầy đặn.",
+    "pairing": "Rau sống · Đồ chua · Nước mắm"
+  },
+  {
+    "name": "Bún Bò Huế",
+    "image": "/premium-menu-images/dish-07.jpg",
+    "category": "Món Việt",
+    "price": 95000,
+    "description": "Nước dùng đậm đà, thơm sả, ăn cùng bún và các loại rau tươi.",
+    "pairing": "Rau sống · Chanh · Ớt · Sa tế"
+  },
+  {
+    "name": "Bánh Xèo",
+    "image": "/premium-menu-images/dish-08.jpg",
+    "category": "Khai vị",
+    "price": 150000,
+    "description": "Lớp bánh vàng giòn ôm phần nhân nóng, cuốn cùng rau sống và nước chấm.",
+    "pairing": "Rau sống · Bánh tráng · Nước mắm"
+  },
+  {
+    "name": "Nem Nướng",
+    "image": "/premium-menu-images/dish-09.jpg",
+    "category": "Món Việt",
+    "price": 135000,
+    "description": "Nem nướng thơm lửa, dùng cùng rau, bánh tráng và nước chấm đậm vị.",
+    "pairing": "Rau sống · Bánh tráng · Nước chấm"
+  },
+  {
+    "name": "Cơm Gà",
+    "image": "/premium-menu-images/dish-10.jpg",
+    "category": "Món Việt",
+    "price": 155000,
+    "description": "Cơm thơm dùng cùng thịt gà mềm và các món ăn kèm thanh vị.",
+    "pairing": "Dưa leo · Rau thơm · Nước mắm gừng"
+  },
+  {
+    "name": "Cơm Chiên",
+    "image": "/premium-menu-images/dish-11.jpg",
+    "category": "Món Việt",
+    "price": 175000,
+    "description": "Cơm Chiên mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Lẩu Thái",
+    "image": "/premium-menu-images/dish-12.jpg",
+    "category": "Món Việt",
+    "price": 195000,
+    "description": "Lẩu Thái mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Mực Nướng",
+    "image": "/premium-menu-images/dish-13.jpg",
+    "category": "Món Việt",
+    "price": 95000,
+    "description": "Mực Nướng mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Ếch Xào Sả Ớt",
+    "image": "/premium-menu-images/dish-14.jpg",
+    "category": "Món Việt",
+    "price": 115000,
+    "description": "Ếch Xào Sả Ớt mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Cá Kho Tộ",
+    "image": "/premium-menu-images/dish-15.jpg",
+    "category": "Món Việt",
+    "price": 135000,
+    "description": "Cá kho trong tộ với phần sốt sánh đậm vị, đặc biệt hợp với cơm trắng nóng.",
+    "pairing": "Cơm trắng · Rau luộc · Canh"
+  },
+  {
+    "name": "Gỏi Hải Sản",
+    "image": "/premium-menu-images/dish-16.jpg",
+    "category": "Món Việt",
+    "price": 155000,
+    "description": "Gỏi Hải Sản mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Chè Sen",
+    "image": "/premium-menu-images/dish-17.jpg",
+    "category": "Món Việt",
+    "price": 175000,
+    "description": "Chè Sen mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Bún Chả",
+    "image": "/premium-menu-images/dish-18.jpg",
+    "category": "Món Việt",
+    "price": 195000,
+    "description": "Bún Chả mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Đậu Hũ Chiên",
+    "image": "/premium-menu-images/dish-19.jpg",
+    "category": "Món Việt",
+    "price": 95000,
+    "description": "Đậu Hũ Chiên mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  },
+  {
+    "name": "Chè Xoài",
+    "image": "/premium-menu-images/dish-20.jpg",
+    "category": "Món Việt",
+    "price": 115000,
+    "description": "Chè Xoài mang phong vị Việt gần gũi, được chuẩn bị để giữ trọn hương vị của một bữa cơm nhà.",
+    "pairing": "Rau thơm · Nước chấm nhà làm"
+  }
+]

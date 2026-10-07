@@ -679,3 +679,141 @@ footer{padding:52px max(5vw,24px)}
 
 /* V21 — image 3 removed */
 #menu .menu-head .eyebrow{display:none!important}
+
+/* ================= Dish detail modal ================= */
+.menu-item,.premium-dish,.dish-card{cursor:pointer}
+.menu-item img,.premium-dish img,.dish-card img{transition:transform .45s cubic-bezier(.2,.7,.2,1),filter .45s ease}
+.menu-item:hover img,.premium-dish:hover img,.dish-card:hover img{transform:scale(1.035);filter:saturate(1.04)}
+.dish-modal{position:fixed;inset:0;z-index:1200;display:grid;place-items:center;padding:28px;visibility:hidden;pointer-events:none}
+.dish-modal.is-open{visibility:visible;pointer-events:auto}
+.dish-modal-backdrop{position:absolute;inset:0;border:0;background:rgba(20,25,21,.48);backdrop-filter:blur(12px);opacity:0;transition:opacity .42s ease;cursor:default}
+.dish-modal.is-open .dish-modal-backdrop{opacity:1}
+.dish-modal-card{position:relative;width:min(940px,92vw);max-height:min(720px,88vh);display:grid;grid-template-columns:1.06fr .94fr;background:#FDFBF7;border:1px solid rgba(158,116,60,.35);box-shadow:0 28px 80px rgba(20,25,21,.22);overflow:hidden;opacity:0;transform:translateY(34px) scale(.985);transition:opacity .42s ease,transform .52s cubic-bezier(.2,.75,.2,1)}
+.dish-modal.is-open .dish-modal-card{opacity:1;transform:translateY(0) scale(1)}
+.dish-modal-media{min-height:540px;background:#eee7da;overflow:hidden}
+.dish-modal-media img{width:100%;height:100%;object-fit:cover;display:block}
+.dish-modal-copy{padding:64px 58px 50px;display:flex;flex-direction:column;justify-content:center}
+.dish-modal-kicker{margin:0 0 14px;font:500 10px/1.2 "DM Sans",sans-serif;letter-spacing:.27em;color:#9E743C;text-transform:uppercase}
+.dish-modal-copy h3{margin:0;color:#1C2D24;font:500 clamp(42px,5vw,72px)/.98 "Playfair Display",serif;letter-spacing:-.035em}
+.dish-modal-price{margin:20px 0 0;font:500 15px/1 "DM Sans",sans-serif;letter-spacing:.12em;color:#98542F}
+.dish-modal-rule{width:52px;height:1px;background:#D4AF37;margin:30px 0}
+.dish-modal-description{margin:0;color:#48463f;font:400 15px/1.75 "DM Sans",sans-serif}
+.dish-modal-pairing{margin-top:32px;padding-top:20px;border-top:1px solid rgba(28,45,36,.14)}
+.dish-modal-pairing span{font:600 9px/1 "DM Sans",sans-serif;letter-spacing:.22em;color:#9E743C}
+.dish-modal-pairing p{margin:9px 0 0;font:400 14px/1.55 "DM Sans",sans-serif;color:#1C2D24}
+.dish-modal-close{position:absolute;right:18px;top:18px;z-index:2;width:42px;height:42px;border:1px solid rgba(28,45,36,.2);border-radius:50%;background:rgba(253,251,247,.9);display:grid;place-items:center;cursor:pointer;transition:transform .3s ease,background .3s ease}
+.dish-modal-close:hover{transform:rotate(8deg);background:#fff}
+.dish-modal-close svg{width:16px;height:16px;fill:none;stroke:#1C2D24;stroke-width:1.4}
+body.dish-modal-lock{overflow:hidden}
+@media(max-width:720px){
+ .dish-modal{padding:0;align-items:end}
+ .dish-modal-card{width:100%;max-height:90vh;grid-template-columns:1fr;grid-template-rows:minmax(240px,38vh) auto;border-radius:22px 22px 0 0}
+ .dish-modal-media{min-height:0}
+ .dish-modal-copy{padding:30px 26px 34px}
+ .dish-modal-copy h3{font-size:44px}
+ .dish-modal-rule{margin:22px 0}
+ .dish-modal-pairing{margin-top:22px}
+}
+
+/* ================= Ordering experience ================= */
+.order-cart-button{width:43px;height:43px;border:1px solid rgba(28,45,36,.2);background:transparent;color:#1C2D24;display:grid;place-items:center;position:relative;cursor:pointer}
+.order-cart-button svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
+.order-cart-button span{position:absolute;right:-7px;top:-7px;min-width:19px;height:19px;padding:0 5px;border-radius:12px;background:#98542F;color:#fff;font:600 9px/19px "DM Sans";text-align:center}
+.dish-order-page{background:#FDFBF7;color:#1C2D24}
+.order-topbar{height:94px;padding:0 42px;border-bottom:1px solid rgba(28,45,36,.13);display:grid;grid-template-columns:1fr auto 1fr;align-items:center;position:sticky;top:0;z-index:20;background:rgba(253,251,247,.9);backdrop-filter:blur(14px)}
+.order-brand{justify-self:center}.order-brand img{width:92px;display:block}
+.order-back{justify-self:start;text-decoration:none;color:#1C2D24;font:500 10px/1 "DM Sans";letter-spacing:.18em}
+.order-cart-page-button{justify-self:end}
+.dish-order-shell{padding:56px clamp(24px,6vw,96px) 90px}
+.dish-order-hero{max-width:1320px;margin:auto;display:grid;grid-template-columns:minmax(0,1.12fr) minmax(390px,.88fr);min-height:690px;border:1px solid rgba(158,116,60,.28);background:#fffdf8}
+.dish-order-image{overflow:hidden;background:#eee7da}.dish-order-image img{width:100%;height:100%;object-fit:cover;display:block}
+.dish-order-info{padding:70px clamp(38px,5vw,76px);align-self:center}
+.dish-order-category{font:600 9px/1 "DM Sans";letter-spacing:.27em;color:#9E743C;margin:0 0 15px}
+.dish-order-info h1{font:500 clamp(50px,6vw,88px)/.92 "Playfair Display";letter-spacing:-.045em;margin:0}
+.dish-order-price{font:500 16px/1 "DM Sans";letter-spacing:.1em;color:#98542F;margin:24px 0 0}
+.dish-order-rule{width:54px;height:1px;background:#D4AF37;margin:30px 0}
+.dish-order-description{font:400 15px/1.8 "DM Sans";color:#514e47;max-width:520px}
+.dish-order-pairing{margin-top:27px}.dish-order-pairing span,.order-note span{font:600 9px/1 "DM Sans";letter-spacing:.2em;color:#9E743C}.dish-order-pairing p{font:400 14px/1.6 "DM Sans"}
+.dish-order-controls{margin-top:36px;border-top:1px solid rgba(28,45,36,.12);padding-top:28px}
+.qty-control{display:inline-grid;grid-template-columns:42px 48px 42px;border:1px solid rgba(28,45,36,.22);height:42px}.qty-control button{border:0;background:transparent;font-size:20px;cursor:pointer}.qty-control strong{display:grid;place-items:center;font:500 13px "DM Sans"}
+.order-note{display:block;margin-top:22px}.order-note textarea{width:100%;margin-top:9px;padding:13px;border:1px solid rgba(28,45,36,.18);background:transparent;resize:vertical;font:400 13px/1.5 "DM Sans"}
+.add-order-button,.place-order-button{width:100%;margin-top:18px;min-height:54px;border:0;background:#1C2D24;color:#FDFBF7;padding:0 22px;display:flex;justify-content:space-between;align-items:center;font:600 10px "DM Sans";letter-spacing:.16em;cursor:pointer;transition:background .3s ease,transform .3s ease}.add-order-button:hover,.place-order-button:hover{background:#98542F}.add-order-button:active,.place-order-button:active{transform:scale(.99)}
+.order-drawer{position:fixed;inset:0;z-index:1500;visibility:hidden;pointer-events:none}.order-drawer.is-open{visibility:visible;pointer-events:auto}.order-drawer-backdrop{position:absolute;inset:0;border:0;background:rgba(17,24,20,.42);backdrop-filter:blur(8px);opacity:0;transition:.35s}.order-drawer.is-open .order-drawer-backdrop{opacity:1}.order-drawer-panel{position:absolute;right:0;top:0;height:100%;width:min(590px,100%);background:#FDFBF7;padding:38px;overflow:auto;transform:translateX(100%);transition:transform .45s cubic-bezier(.2,.75,.2,1)}.order-drawer.is-open .order-drawer-panel{transform:none}
+.order-drawer-head{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid rgba(28,45,36,.13);padding-bottom:25px}.order-drawer-head small{font:600 9px "DM Sans";letter-spacing:.23em;color:#9E743C}.order-drawer-head h2{font:500 36px "Playfair Display";margin:6px 0 0}.order-drawer-head button{border:0;background:transparent;font:300 30px "DM Sans";cursor:pointer}
+.cart-line{display:grid;grid-template-columns:74px 1fr auto;gap:14px;padding:18px 0;border-bottom:1px solid rgba(28,45,36,.1);align-items:center}.cart-line img{width:74px;height:74px;object-fit:cover;border-radius:50%}.cart-line h3{font:500 19px "Playfair Display";margin:0}.cart-line p{font:400 11px "DM Sans";color:#777;margin:5px 0}.cart-line>strong{font:500 12px "DM Sans"}.cart-line-actions{display:flex;align-items:center;gap:9px}.cart-line-actions button{border:1px solid rgba(28,45,36,.15);background:transparent;min-width:26px;height:26px;cursor:pointer}.cart-line-actions .cart-remove{border:0;color:#98542F;font-size:10px}
+.empty-cart{text-align:center;padding:50px 0;font:500 18px "Playfair Display"}.empty-cart span{font:400 11px "DM Sans";color:#777}.cart-total{display:flex;justify-content:space-between;padding:22px 0;font:500 13px "DM Sans"}.cart-total strong{font-size:17px;color:#98542F}
+.checkout-form{border-top:1px solid rgba(28,45,36,.13);padding-top:24px}.fulfillment-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.fulfillment-tabs input{display:none}.fulfillment-tabs span{display:grid;place-items:center;text-align:center;min-height:43px;border:1px solid rgba(28,45,36,.16);font:500 9px "DM Sans";cursor:pointer}.fulfillment-tabs input:checked+span{background:#1C2D24;color:#fff}
+.checkout-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:20px}.checkout-grid label{display:flex;flex-direction:column;gap:7px}.checkout-grid label span{font:600 8px "DM Sans";letter-spacing:.16em;color:#776b59}.checkout-grid input,.checkout-grid select,.checkout-grid textarea{border:1px solid rgba(28,45,36,.16);background:#fffdf8;padding:12px;font:400 12px "DM Sans";min-height:42px}.checkout-full{grid-column:1/-1}.checkout-status{font:400 12px/1.5 "DM Sans";color:#98542F}
+@media(max-width:800px){.order-topbar{height:76px;padding:0 17px}.order-brand img{width:72px}.order-back span{display:none}.dish-order-shell{padding:16px 0 60px}.dish-order-hero{grid-template-columns:1fr;border-left:0;border-right:0;min-height:0}.dish-order-image{height:46vh;min-height:320px}.dish-order-info{padding:34px 24px}.dish-order-info h1{font-size:52px}.order-drawer-panel{padding:25px 18px}.checkout-grid{grid-template-columns:1fr}.checkout-full{grid-column:auto}.fulfillment-tabs{grid-template-columns:1fr}.cart-line{grid-template-columns:60px 1fr auto}.cart-line img{width:60px;height:60px}}
+
+/* V2 FIX — actual scrolling cards are .dish */
+#menu .dish{
+  cursor:pointer!important;
+  pointer-events:auto!important;
+  position:relative;
+  z-index:2;
+}
+#menu .dish-image,#menu .dish-image img,#menu .dish-name{pointer-events:none!important}
+#menu .dish:focus-visible{outline:1px solid #9E743C;outline-offset:8px}
+#menu .dish:hover .dish-image{transform:translateY(-3px) scale(1.025)}
+#menu .dish-image{transition:transform .35s ease}
+
+/* V4 — menu marquee uses tight cutout dish images, no fixed frame */
+#menu .dish{
+  width:210px!important;
+  display:flex!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  justify-content:flex-start!important;
+  gap:8px!important;
+}
+#menu .dish-image{
+  width:auto!important;
+  height:auto!important;
+  max-width:210px!important;
+  max-height:168px!important;
+  display:flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  border:none!important;
+  border-radius:0!important;
+  background:transparent!important;
+  box-shadow:none!important;
+  overflow:visible!important;
+  margin:0 auto!important;
+}
+#menu .dish-image img{
+  width:auto!important;
+  height:auto!important;
+  max-width:210px!important;
+  max-height:168px!important;
+  object-fit:contain!important;
+  border-radius:0!important;
+  background:transparent!important;
+  filter:drop-shadow(0 12px 18px rgba(60,43,20,.16))!important;
+  transform:none!important;
+  display:block!important;
+}
+#menu .dish-name{
+  width:100%!important;
+  max-width:210px!important;
+  text-align:center!important;
+  white-space:normal!important;
+  overflow:visible!important;
+  text-overflow:clip!important;
+  min-height:2.7em!important;
+  display:-webkit-box!important;
+  -webkit-line-clamp:2!important;
+  -webkit-box-orient:vertical!important;
+  font:500 15px/1.35 "Playfair Display",serif!important;
+}
+#menu .dish:hover .dish-image img{
+  transform:translateY(-4px) scale(1.03)!important;
+  transition:transform .35s ease!important;
+}
+@media(max-width:900px){
+  #menu .dish{width:156px!important}
+  #menu .dish-image{max-width:156px!important;max-height:124px!important}
+  #menu .dish-image img{max-width:156px!important;max-height:124px!important}
+  #menu .dish-name{max-width:156px!important;font-size:13px!important;min-height:2.9em!important}
+}

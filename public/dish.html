@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Đặt món · Bếp Nhà Bà</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body class="dish-order-page">
+<header class="order-topbar">
+<a class="order-brand" href="/"><img src="/assets/bep-nha-ba-logo-v17.png" alt="Bếp Nhà Bà"></a>
+<a class="order-back" href="/#menu">← <span>THỰC ĐƠN</span></a>
+<button class="order-cart-button order-cart-page-button" id="orderCartButton" type="button" aria-label="Giỏ món">
+<svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L20.4 8H6.1M9 20h.01M17 20h.01"/></svg><span id="orderCartCount">0</span>
+</button>
+</header>
+
+<main class="dish-order-shell">
+<section class="dish-order-hero">
+<div class="dish-order-image"><img id="orderDishImage" alt=""></div>
+<div class="dish-order-info">
+<p class="dish-order-category" id="orderDishCategory"></p>
+<h1 id="orderDishName">Món ăn</h1>
+<p class="dish-order-price" id="orderDishPrice"></p>
+<div class="dish-order-rule"></div>
+<p class="dish-order-description" id="orderDishDescription"></p>
+<div class="dish-order-pairing"><span>ĂN KÈM</span><p id="orderDishPairing"></p></div>
+
+<div class="dish-order-controls">
+<div class="qty-control"><button id="qtyMinus" type="button">−</button><strong id="qtyValue">1</strong><button id="qtyPlus" type="button">+</button></div>
+<label class="order-note"><span>GHI CHÚ CHO MÓN</span><textarea id="dishNote" rows="2" placeholder="Ví dụ: không hành, ít cay..."></textarea></label>
+<button class="add-order-button" id="addToOrder" type="button"><span>THÊM VÀO ĐƠN</span><strong id="addOrderTotal"></strong></button>
+</div>
+</div>
+</section>
+</main>
+
+<aside class="order-drawer" id="orderDrawer" aria-hidden="true">
+<button class="order-drawer-backdrop" data-close-cart></button>
+<section class="order-drawer-panel">
+<div class="order-drawer-head"><div><small>BẾP NHÀ BÀ</small><h2>Đơn món của bạn</h2></div><button data-close-cart>×</button></div>
+<div id="cartItems" class="cart-items"></div>
+<div class="cart-total"><span>Tạm tính</span><strong id="cartTotal"></strong></div>
+
+<form id="checkoutForm" class="checkout-form">
+<div class="fulfillment-tabs">
+<label><input type="radio" name="fulfillment" value="dinein" checked><span>Ăn tại nhà hàng</span></label>
+<label><input type="radio" name="fulfillment" value="takeaway"><span>Mang đi</span></label>
+<label><input type="radio" name="fulfillment" value="delivery"><span>Giao tận nơi</span></label>
+</div>
+<div class="checkout-grid">
+<label><span>Tên khách</span><input name="name" required></label>
+<label><span>Số điện thoại</span><input name="phone" type="tel" required></label>
+<label><span>Thời gian nhận</span><select name="pickup_time"><option value="asap">Càng sớm càng tốt</option><option value="30">Khoảng 30 phút nữa</option><option value="60">Khoảng 1 giờ nữa</option></select></label>
+<label class="table-field"><span>Số bàn</span><input name="table_number" placeholder="Ví dụ: B12"></label>
+<label class="address-field" hidden><span>Địa chỉ giao hàng</span><input name="address"></label>
+<label><span>Thanh toán</span><select name="payment"><option>Tiền mặt</option><option>Chuyển khoản</option><option>Thanh toán tại quầy</option></select></label>
+<label class="checkout-full"><span>Ghi chú đơn hàng</span><textarea name="order_note" rows="2"></textarea></label>
+</div>
+<button class="place-order-button" type="submit">XÁC NHẬN ĐẶT MÓN <strong id="checkoutTotal"></strong></button>
+<p class="checkout-status" id="checkoutStatus"></p>
+</form>
+</section>
+</aside>
+<script src="/order.js"></script>
+</body></html>

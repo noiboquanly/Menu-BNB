@@ -62,6 +62,38 @@ app.post("/api/reservations", (req, res) => {
 
 app.get("*", (req,res) => res.sendFile(path.join(ROOT, "public", "index.html")));
 
+
+// Bếp Nhà Bà — local ordering API
+const ORDERS_FILE = path.join(__dirname, "data", "orders.json");
+if (!fs.existsSync(ORDERS_FILE)) fs.writeFileSync(ORDERS_FILE, "[]", "utf8");
+app.post("/api/orders", (req, res) => {
+  try {
+    const body=req.body||{}, items=Array.isArray(body.items)?body.items:[];
+    if(!body.name || !body.phone || !items.length) return res.status(400).json({error:"missing_fields"});
+    const orders=JSON.parse(fs.readFileSync(ORDERS_FILE,"utf8")||"[]");
+    const order_code="BNB-"+Date.now().toString().slice(-8);
+    const order={id:Date.now(),order_code,created_at:new Date().toISOString(),status:"new",
+      name:String(body.name),phone:String(body.phone),fulfillment:String(body.fulfillment||"dinein"),
+      pickup_time:String(body.pickup_time||"asap"),table_number:String(body.table_number||""),
+      address:String(body.address||""),payment:String(body.payment||"Tiền mặt"),
+      order_note:String(body.order_note||""),items,total:Number(body.total||0)};
+    orders.unshift(order);fs.writeFileSync(ORDERS_FILE,JSON.stringify(orders,null,2),"utf8");
+    res.json({ok:true,order_code});
+  } catch(e){res.status(500).json({error:"save_failed"});}
+});
+app.get("/api/orders", (req,res)=>{
+  try{res.json(JSON.parse(fs.readFileSync(ORDERS_FILE,"utf8")||"[]"))}
+  catch(e){res.status(500).json({error:"read_failed"})}
+});
+
+
+app.get("/api/premium-menu", (req,res)=>{
+  try{
+    const file=path.join(__dirname,"data","premium-menu.json");
+    res.json(JSON.parse(fs.readFileSync(file,"utf8")||"[]"));
+  }catch(e){res.status(500).json({error:"premium_menu_failed"})}
+});
+
 app.listen(PORT, () => {
   console.log("");
   console.log("==========================================");

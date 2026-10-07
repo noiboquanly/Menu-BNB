@@ -26,14 +26,16 @@ async function getMenu(){
   }catch(e){ return fallback; }
 }
 function dishCard(d){
-  return `<article class="dish"><div class="dish-image"><img src="${d.image}" alt="${d.name}" draggable="false" loading="eager"></div><div class="dish-name">${d.name}</div></article>`;
+  return `<article class="dish" data-dish-name="${String(d.name).replace(/"/g,"&quot;")}" role="link" tabindex="0" aria-label="Xem và đặt món ${d.name}"><div class="dish-image"><img src="${d.image}" alt="${d.name}" draggable="false" loading="eager"></div><div class="dish-name">${d.name}</div></article>`;
 }
-const premiumMenu = [{"name": "Phở Bò", "image": "/premium-menu-images/dish-01.jpg"}, {"name": "Gỏi Cuốn", "image": "/premium-menu-images/dish-02.jpg"}, {"name": "Bánh Mì", "image": "/premium-menu-images/dish-03.jpg"}, {"name": "Thịt Kho Tàu", "image": "/premium-menu-images/dish-04.jpg"}, {"name": "Tôm Rim", "image": "/premium-menu-images/dish-05.jpg"}, {"name": "Bún Thịt Nướng", "image": "/premium-menu-images/dish-06.jpg"}, {"name": "Bún Bò Huế", "image": "/premium-menu-images/dish-07.jpg"}, {"name": "Bánh Xèo", "image": "/premium-menu-images/dish-08.jpg"}, {"name": "Nem Nướng", "image": "/premium-menu-images/dish-09.jpg"}, {"name": "Cơm Gà", "image": "/premium-menu-images/dish-10.jpg"}, {"name": "Cơm Chiên", "image": "/premium-menu-images/dish-11.jpg"}, {"name": "Lẩu Thái", "image": "/premium-menu-images/dish-12.jpg"}, {"name": "Mực Nướng", "image": "/premium-menu-images/dish-13.jpg"}, {"name": "Ếch Xào Sả Ớt", "image": "/premium-menu-images/dish-14.jpg"}, {"name": "Cá Kho Tộ", "image": "/premium-menu-images/dish-15.jpg"}, {"name": "Gỏi Hải Sản", "image": "/premium-menu-images/dish-16.jpg"}, {"name": "Chè Sen", "image": "/premium-menu-images/dish-17.jpg"}, {"name": "Bún Chả", "image": "/premium-menu-images/dish-18.jpg"}, {"name": "Đậu Hũ Chiên", "image": "/premium-menu-images/dish-19.jpg"}, {"name": "Chè Xoài", "image": "/premium-menu-images/dish-20.jpg"}];
+const premiumMenu = [{"name":"Gỏi cuốn","image":"/menu-scroll-images/dish-01.jpg"},{"name":"Chả giò rế con tôm","image":"/menu-scroll-images/dish-02.jpg"},{"name":"Chả giò","image":"/menu-scroll-images/dish-03.jpg"},{"name":"Khoai tây chiên","image":"/menu-scroll-images/dish-04.jpg"},{"name":"Bánh xèo","image":"/menu-scroll-images/dish-05.jpg"},{"name":"Bún chả Hà Nội","image":"/menu-scroll-images/dish-06.jpg"},{"name":"Phở bò","image":"/menu-scroll-images/dish-07.jpg"},{"name":"Phở bò thố đá","image":"/menu-scroll-images/dish-08.jpg"},{"name":"Rau muống xào tỏi","image":"/menu-scroll-images/dish-09.jpg"},{"name":"Rau muống xào bò","image":"/menu-scroll-images/dish-10.jpg"},{"name":"Cải thìa xào bò","image":"/menu-scroll-images/dish-11.jpg"},{"name":"Cải thìa xào tỏi","image":"/menu-scroll-images/dish-12.jpg"},{"name":"Rau củ luộc kho quẹt","image":"/menu-scroll-images/dish-13.jpg"},{"name":"Cà tím nướng mỡ hành thịt bằm","image":"/menu-scroll-images/dish-14.jpg"},{"name":"Salad dầu dấm","image":"/menu-scroll-images/dish-15.jpg"},{"name":"Salad bò trứng","image":"/menu-scroll-images/dish-16.jpg"},{"name":"Trứng chiên thịt bằm","image":"/menu-scroll-images/dish-17.jpg"},{"name":"Trứng chiên","image":"/menu-scroll-images/dish-18.jpg"},{"name":"Cà tím nướng mỡ hành","image":"/menu-scroll-images/dish-19.jpg"},{"name":"Cơm chiên đùi gà mắm tỏi","image":"/menu-scroll-images/dish-20.jpg"},{"name":"Cơm chiên trứng","image":"/menu-scroll-images/dish-21.jpg"},{"name":"Cơm chiên hải sản trái thơm","image":"/menu-scroll-images/dish-22.jpg"},{"name":"Cơm chiên ghẹ","image":"/menu-scroll-images/dish-23.jpg"},{"name":"Cơm chiên dưa bò","image":"/menu-scroll-images/dish-24.jpg"},{"name":"Mỳ xào bò","image":"/menu-scroll-images/dish-25.jpg"},{"name":"Mỳ xào hải sản","image":"/menu-scroll-images/dish-26.jpg"},{"name":"Miến xào bò","image":"/menu-scroll-images/dish-27.jpg"},{"name":"Phở xào bò","image":"/menu-scroll-images/dish-28.jpg"},{"name":"Ba chỉ rim tôm","image":"/menu-scroll-images/dish-29.jpg"},{"name":"Thịt kho trứng","image":"/menu-scroll-images/dish-30.jpg"},{"name":"Ba chỉ luộc chấm mắm nêm","image":"/menu-scroll-images/dish-31.jpg"},{"name":"Ba chỉ kho tiêu","image":"/menu-scroll-images/dish-32.jpg"},{"name":"Ba chỉ cháy cạnh","image":"/menu-scroll-images/dish-33.jpg"},{"name":"Bò lúc lắc khoai tây","image":"/menu-scroll-images/dish-34.jpg"},{"name":"Sườn nướng mật ong","image":"/menu-scroll-images/dish-35.jpg"},{"name":"Sườn xào chua ngọt","image":"/menu-scroll-images/dish-36.jpg"},{"name":"Cánh gà chiên nước mắm","image":"/menu-scroll-images/dish-37.jpg"},{"name":"Gà kho sả ớt","image":"/menu-scroll-images/dish-38.jpg"},{"name":"Mực chiên giòn","image":"/menu-scroll-images/dish-39.jpg"},{"name":"Mực chiên nước mắm","image":"/menu-scroll-images/dish-40.jpg"},{"name":"Mực hấp hành gừng","image":"/menu-scroll-images/dish-41.jpg"},{"name":"Mực nướng sa tế","image":"/menu-scroll-images/dish-42.jpg"},{"name":"Tôm nướng mọi","image":"/menu-scroll-images/dish-43.jpg"},{"name":"Tôm hấp","image":"/menu-scroll-images/dish-44.jpg"},{"name":"Tôm cháy tỏi","image":"/menu-scroll-images/dish-45.jpg"},{"name":"Tôm sốt trứng muối","image":"/menu-scroll-images/dish-46.jpg"},{"name":"Tôm sú chiên giòn","image":"/menu-scroll-images/dish-47.jpg"},{"name":"Cá bớp kho tộ","image":"/menu-scroll-images/dish-48.jpg"},{"name":"Cá bớp nướng muối ớt","image":"/menu-scroll-images/dish-49.jpg"},{"name":"Cá lóc kho tộ","image":"/menu-scroll-images/dish-50.jpg"},{"name":"Combo 1","image":"/menu-scroll-images/dish-51.jpg"},{"name":"Combo 2","image":"/menu-scroll-images/dish-52.jpg"},{"name":"Canh cải xanh nấu tôm","image":"/menu-scroll-images/dish-53.jpg"},{"name":"Canh bầu nấu tôm","image":"/menu-scroll-images/dish-54.jpg"},{"name":"Canh cà chua nấu trứng","image":"/menu-scroll-images/dish-55.jpg"},{"name":"Canh chua cá bớp","image":"/menu-scroll-images/dish-56.jpg"},{"name":"Canh mồng tơi nấu tôm","image":"/menu-scroll-images/dish-57.jpg"},{"name":"Canh chua cá lóc","image":"/menu-scroll-images/dish-58.jpg"}];
+const premiumMenuCutout = premiumMenu.map(d=>({...d,image:d.image.replace("/menu-scroll-images/","/menu-scroll-cutouts/").replace(/\.jpg$/i,".png")}));
+
 
 async function renderMenu(){
-  const half = 10;
-  const top = premiumMenu.slice(0,half).map(dishCard).join("");
-  const bottom = premiumMenu.slice(half).map(dishCard).join("");
+  const half = Math.ceil(premiumMenuCutout.length / 2);
+  const top = premiumMenuCutout.slice(0,half).map(dishCard).join("");
+  const bottom = premiumMenuCutout.slice(half).map(dishCard).join("");
   document.querySelector("#rowA").innerHTML = top + top;
   document.querySelector("#rowB").innerHTML = bottom + bottom;
 }
@@ -206,3 +208,31 @@ document.addEventListener("DOMContentLoaded",()=>{
   const saved=localStorage.getItem("bnb-lang")||localStorage.getItem("lang")||"vi";
   applyMenuSideCopyV21(saved);
 });
+
+
+/* Moving circular dishes -> dedicated ordering page */
+function openDishOrder(card){
+  const name=card?.dataset?.dishName || card?.querySelector(".dish-name")?.textContent?.trim();
+  if(!name)return;
+  const idx=premiumMenu.findIndex(x=>x.name===name);
+  window.location.href="/dish.html?id="+encodeURIComponent(idx>=0?idx:0);
+}
+document.addEventListener("click",e=>{
+  const card=e.target.closest("#menu .dish");
+  if(!card)return;
+  e.preventDefault();
+  e.stopPropagation();
+  openDishOrder(card);
+});
+document.addEventListener("keydown",e=>{
+  if(e.key!=="Enter" && e.key!==" ")return;
+  const card=e.target.closest("#menu .dish");
+  if(!card)return;
+  e.preventDefault();
+  openDishOrder(card);
+});
+/* Shared cart badge on homepage */
+(()=>{try{
+ const c=JSON.parse(localStorage.getItem("bnb-order-cart-v1")||"[]");
+ const n=c.reduce((s,x)=>s+(x.qty||0),0),b=document.getElementById("orderCartCount");if(b)b.textContent=n;
+}catch{}})();

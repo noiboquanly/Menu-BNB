@@ -5,7 +5,8 @@
     "price": 120000,
     "description": "Spring rolls — thanh nhẹ, tươi mát.",
     "image": "/dish-images/khai-v-01.jpg",
-    "sort_order": 1
+    "sort_order": 1,
+    "pairing": "Rau thơm · Nước mắm chua ngọt · Đậu phộng"
   },
   {
     "category": "Khai vị",
@@ -13,7 +14,8 @@
     "price": 150000,
     "description": "Shrimp spring rolls giòn thơm.",
     "image": "/dish-images/khai-v-02.jpg",
-    "sort_order": 2
+    "sort_order": 2,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Khai vị",
@@ -21,7 +23,8 @@
     "price": 120000,
     "description": "Chả giò chiên vàng theo phong vị Việt.",
     "image": "/dish-images/khai-v-03.jpg",
-    "sort_order": 3
+    "sort_order": 3,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Khai vị",
@@ -29,7 +32,8 @@
     "price": 80000,
     "description": "Món ăn nhẹ giòn nóng.",
     "image": "/dish-images/khai-v-04.jpg",
-    "sort_order": 4
+    "sort_order": 4,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Khai vị",
@@ -37,7 +41,8 @@
     "price": 140000,
     "description": "Bún, thịt nướng và rau thơm.",
     "image": "/dish-images/khai-v-05.jpg",
-    "sort_order": 5
+    "sort_order": 5,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Khai vị",
@@ -45,7 +50,8 @@
     "price": 100000,
     "description": "Phở bò nóng, hương vị quen thuộc.",
     "image": "/dish-images/khai-v-06.jpg",
-    "sort_order": 6
+    "sort_order": 6,
+    "pairing": "Rau thơm · Giá · Chanh · Ớt"
   },
   {
     "category": "Khai vị",
@@ -53,7 +59,8 @@
     "price": 150000,
     "description": "Vietnamese pancake giòn thơm.",
     "image": "/dish-images/khai-v-07.jpg",
-    "sort_order": 7
+    "sort_order": 7,
+    "pairing": "Rau sống · Bánh tráng · Nước mắm chua ngọt"
   },
   {
     "category": "Rau & Trứng",
@@ -61,7 +68,8 @@
     "price": 100000,
     "description": "Rau muống xào tỏi thơm.",
     "image": "/dish-images/rau-tr-ng-01.jpg",
-    "sort_order": 8
+    "sort_order": 8,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -69,7 +77,8 @@
     "price": 130000,
     "description": "Rau muống xào cùng thịt bò.",
     "image": "/dish-images/rau-tr-ng-02.jpg",
-    "sort_order": 9
+    "sort_order": 9,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -77,7 +86,8 @@
     "price": 110000,
     "description": "Cải thìa xào tỏi.",
     "image": "/dish-images/rau-tr-ng-03.jpg",
-    "sort_order": 10
+    "sort_order": 10,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -85,7 +95,8 @@
     "price": 140000,
     "description": "Cải thìa xào cùng thịt bò.",
     "image": "/dish-images/rau-tr-ng-04.jpg",
-    "sort_order": 11
+    "sort_order": 11,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -93,7 +104,8 @@
     "price": 120000,
     "description": "Rau củ luộc dùng cùng sốt kho quẹt.",
     "image": "/dish-images/rau-tr-ng-05.jpg",
-    "sort_order": 12
+    "sort_order": 12,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -101,7 +113,8 @@
     "price": 100000,
     "description": "Salad thanh nhẹ với dầu giấm.",
     "image": "/dish-images/rau-tr-ng-06.jpg",
-    "sort_order": 13
+    "sort_order": 13,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -109,7 +122,8 @@
     "price": 140000,
     "description": "Salad bò và trứng.",
     "image": "/dish-images/rau-tr-ng-07.jpg",
-    "sort_order": 14
+    "sort_order": 14,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -117,7 +131,8 @@
     "price": 120000,
     "description": "Trứng chiên cùng thịt bằm.",
     "image": "/dish-images/rau-tr-ng-08.jpg",
-    "sort_order": 15
+    "sort_order": 15,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Rau & Trứng",
@@ -125,7 +140,8 @@
     "price": 80000,
     "description": "Trứng chiên kiểu nhà.",
     "image": "/dish-images/rau-tr-ng-09.jpg",
-    "sort_order": 16
+    "sort_order": 16,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cơm",
@@ -133,7 +149,8 @@
     "price": 170000,
     "description": "Cơm chiên với bò và dưa.",
     "image": "/dish-images/c-m-01.jpg",
-    "sort_order": 17
+    "sort_order": 17,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cơm",
@@ -141,7 +158,8 @@
     "price": 220000,
     "description": "Cơm chiên hải sản và thơm.",
     "image": "/dish-images/c-m-02.jpg",
-    "sort_order": 18
+    "sort_order": 18,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cơm",
@@ -149,7 +167,8 @@
     "price": 200000,
     "description": "Cơm chiên thịt ghẹ.",
     "image": "/dish-images/c-m-03.jpg",
-    "sort_order": 19
+    "sort_order": 19,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cơm",
@@ -157,7 +176,8 @@
     "price": 90000,
     "description": "Cơm chiên trứng giản dị.",
     "image": "/dish-images/c-m-04.jpg",
-    "sort_order": 20
+    "sort_order": 20,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cơm",
@@ -165,7 +185,8 @@
     "price": 150000,
     "description": "Cơm tấm với thịt nướng.",
     "image": "/dish-images/c-m-05.jpg",
-    "sort_order": 21
+    "sort_order": 21,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Mỳ / Miến",
@@ -173,7 +194,8 @@
     "price": 150000,
     "description": "Mỳ xào cùng thịt bò.",
     "image": "/dish-images/m-mi-n-01.jpg",
-    "sort_order": 22
+    "sort_order": 22,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Mỳ / Miến",
@@ -181,7 +203,8 @@
     "price": 170000,
     "description": "Mỳ xào hải sản.",
     "image": "/dish-images/m-mi-n-02.jpg",
-    "sort_order": 23
+    "sort_order": 23,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Mỳ / Miến",
@@ -189,7 +212,8 @@
     "price": 200000,
     "description": "Miến xào cùng hải sản.",
     "image": "/dish-images/m-mi-n-03.jpg",
-    "sort_order": 24
+    "sort_order": 24,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Mỳ / Miến",
@@ -197,7 +221,8 @@
     "price": 170000,
     "description": "Miến xào cùng thịt bò.",
     "image": "/dish-images/m-mi-n-04.jpg",
-    "sort_order": 25
+    "sort_order": 25,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -205,7 +230,8 @@
     "price": 170000,
     "description": "Ba chỉ rim cùng tôm đậm vị.",
     "image": "/dish-images/th-t-01.jpg",
-    "sort_order": 26
+    "sort_order": 26,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -213,7 +239,8 @@
     "price": 120000,
     "description": "Ba chỉ áp chảo cháy cạnh.",
     "image": "/dish-images/th-t-02.jpg",
-    "sort_order": 27
+    "sort_order": 27,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -221,7 +248,8 @@
     "price": 120000,
     "description": "Ba chỉ luộc ăn cùng mắm.",
     "image": "/dish-images/th-t-03.jpg",
-    "sort_order": 28
+    "sort_order": 28,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -229,7 +257,8 @@
     "price": 150000,
     "description": "Ba chỉ kho tiêu đậm đà.",
     "image": "/dish-images/th-t-04.jpg",
-    "sort_order": 29
+    "sort_order": 29,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -237,7 +266,8 @@
     "price": 200000,
     "description": "Sườn non sốt chua ngọt.",
     "image": "/dish-images/th-t-05.jpg",
-    "sort_order": 30
+    "sort_order": 30,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -245,7 +275,8 @@
     "price": 250000,
     "description": "Sườn nướng mật ong.",
     "image": "/dish-images/th-t-06.jpg",
-    "sort_order": 31
+    "sort_order": 31,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -253,7 +284,8 @@
     "price": 200000,
     "description": "Cánh gà chiên nước mắm.",
     "image": "/dish-images/th-t-07.jpg",
-    "sort_order": 32
+    "sort_order": 32,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Thịt",
@@ -261,7 +293,8 @@
     "price": 200000,
     "description": "Gà kho cùng sả và ớt.",
     "image": "/dish-images/th-t-08.jpg",
-    "sort_order": 33
+    "sort_order": 33,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -269,7 +302,8 @@
     "price": 250000,
     "description": "Mực chiên giòn.",
     "image": "/dish-images/h-i-s-n-01.jpg",
-    "sort_order": 34
+    "sort_order": 34,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -277,7 +311,8 @@
     "price": 270000,
     "description": "Mực trứng chiên nước mắm.",
     "image": "/dish-images/h-i-s-n-02.jpg",
-    "sort_order": 35
+    "sort_order": 35,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -285,7 +320,8 @@
     "price": 350000,
     "description": "Mực trứng nướng sa tế.",
     "image": "/dish-images/h-i-s-n-03.jpg",
-    "sort_order": 36
+    "sort_order": 36,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -293,7 +329,8 @@
     "price": 270000,
     "description": "Mực trứng hấp hành và gừng.",
     "image": "/dish-images/h-i-s-n-04.jpg",
-    "sort_order": 37
+    "sort_order": 37,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -301,7 +338,8 @@
     "price": 250000,
     "description": "Mực xào sốt chua ngọt.",
     "image": "/dish-images/h-i-s-n-05.jpg",
-    "sort_order": 38
+    "sort_order": 38,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -309,7 +347,8 @@
     "price": 350000,
     "description": "Tôm nướng giữ vị nguyên bản.",
     "image": "/dish-images/h-i-s-n-06.jpg",
-    "sort_order": 39
+    "sort_order": 39,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -317,7 +356,8 @@
     "price": 300000,
     "description": "Tôm hấp nóng.",
     "image": "/dish-images/h-i-s-n-07.jpg",
-    "sort_order": 40
+    "sort_order": 40,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -325,7 +365,8 @@
     "price": 300000,
     "description": "Tôm cùng sốt trứng muối.",
     "image": "/dish-images/h-i-s-n-08.jpg",
-    "sort_order": 41
+    "sort_order": 41,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Hải sản",
@@ -333,7 +374,8 @@
     "price": 300000,
     "description": "Tôm sú chiên giòn.",
     "image": "/dish-images/h-i-s-n-09.jpg",
-    "sort_order": 42
+    "sort_order": 42,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cá",
@@ -341,7 +383,8 @@
     "price": 170000,
     "description": "Cá bớp kho tộ.",
     "image": "/dish-images/c-01.jpg",
-    "sort_order": 43
+    "sort_order": 43,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cá",
@@ -349,7 +392,8 @@
     "price": 170000,
     "description": "Cá bớp nướng muối ớt.",
     "image": "/dish-images/c-02.jpg",
-    "sort_order": 44
+    "sort_order": 44,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cá",
@@ -357,7 +401,8 @@
     "price": 140000,
     "description": "Cá lóc kho tộ.",
     "image": "/dish-images/c-03.jpg",
-    "sort_order": 45
+    "sort_order": 45,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Cá",
@@ -365,7 +410,8 @@
     "price": 350000,
     "description": "Cá diêu hồng hấp kiểu Hong Kong.",
     "image": "/dish-images/c-04.jpg",
-    "sort_order": 46
+    "sort_order": 46,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Canh",
@@ -373,7 +419,8 @@
     "price": 150000,
     "description": "Canh cải xanh với tôm bằm.",
     "image": "/dish-images/canh-01.jpg",
-    "sort_order": 47
+    "sort_order": 47,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Canh",
@@ -381,7 +428,8 @@
     "price": 150000,
     "description": "Canh bầu nấu tôm.",
     "image": "/dish-images/canh-02.jpg",
-    "sort_order": 48
+    "sort_order": 48,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Canh",
@@ -389,7 +437,8 @@
     "price": 120000,
     "description": "Canh cà chua và trứng.",
     "image": "/dish-images/canh-03.jpg",
-    "sort_order": 49
+    "sort_order": 49,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Canh",
@@ -397,7 +446,8 @@
     "price": 150000,
     "description": "Canh rau muống nấu tôm.",
     "image": "/dish-images/canh-04.jpg",
-    "sort_order": 50
+    "sort_order": 50,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Canh",
@@ -405,7 +455,8 @@
     "price": 200000,
     "description": "Canh chua cá bớp.",
     "image": "/dish-images/canh-05.jpg",
-    "sort_order": 51
+    "sort_order": 51,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Canh",
@@ -413,7 +464,8 @@
     "price": 170000,
     "description": "Canh chua cá lóc.",
     "image": "/dish-images/canh-06.jpg",
-    "sort_order": 52
+    "sort_order": 52,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đặc biệt",
@@ -421,7 +473,8 @@
     "price": 999999,
     "description": "Seafood with sauce — món hải sản đặc biệt của nhà.",
     "image": "/dish-images/c-bi-t-01.jpg",
-    "sort_order": 53
+    "sort_order": 53,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đặc biệt",
@@ -429,7 +482,8 @@
     "price": 499000,
     "description": "Phở bò · Cơm chiên trái thơm · Bún chả · Rau muống xào tỏi · 2 bia/coca.",
     "image": "/dish-images/c-bi-t-02.jpg",
-    "sort_order": 54
+    "sort_order": 54,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đặc biệt",
@@ -437,7 +491,8 @@
     "price": 499000,
     "description": "Phở bò · Cơm chiên dưa bò · Bánh xèo · Rau muống xào tỏi · 2 bia/coca.",
     "image": "/dish-images/c-bi-t-03.jpg",
-    "sort_order": 55
+    "sort_order": 55,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -445,7 +500,8 @@
     "price": 55000,
     "description": "Pineapple juice.",
     "image": "/dish-images/u-ng-01.jpg",
-    "sort_order": 56
+    "sort_order": 56,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -453,7 +509,8 @@
     "price": 40000,
     "description": "Watermelon juice.",
     "image": "/dish-images/u-ng-02.jpg",
-    "sort_order": 57
+    "sort_order": 57,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -461,7 +518,8 @@
     "price": 55000,
     "description": "Mango juice.",
     "image": "/dish-images/u-ng-03.jpg",
-    "sort_order": 58
+    "sort_order": 58,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -469,7 +527,8 @@
     "price": 55000,
     "description": "Orange juice.",
     "image": "/dish-images/u-ng-04.jpg",
-    "sort_order": 59
+    "sort_order": 59,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -477,7 +536,8 @@
     "price": 55000,
     "description": "Passion fruit juice.",
     "image": "/dish-images/u-ng-05.jpg",
-    "sort_order": 60
+    "sort_order": 60,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -485,7 +545,8 @@
     "price": 35000,
     "description": "Coconut.",
     "image": "/dish-images/u-ng-06.jpg",
-    "sort_order": 61
+    "sort_order": 61,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -493,7 +554,8 @@
     "price": 30000,
     "description": "Tiger Beer.",
     "image": "/dish-images/u-ng-07.jpg",
-    "sort_order": 62
+    "sort_order": 62,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -501,7 +563,8 @@
     "price": 30000,
     "description": "Tiger Crystal Beer.",
     "image": "/dish-images/u-ng-08.jpg",
-    "sort_order": 63
+    "sort_order": 63,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -509,7 +572,8 @@
     "price": 120000,
     "description": "Soju.",
     "image": "/dish-images/u-ng-09.jpg",
-    "sort_order": 64
+    "sort_order": 64,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -517,7 +581,8 @@
     "price": 15000,
     "description": "Water.",
     "image": "/dish-images/u-ng-10.jpg",
-    "sort_order": 65
+    "sort_order": 65,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -525,7 +590,8 @@
     "price": 25000,
     "description": "Coke.",
     "image": "/dish-images/u-ng-11.jpg",
-    "sort_order": 66
+    "sort_order": 66,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   },
   {
     "category": "Đồ uống",
@@ -533,6 +599,7 @@
     "price": 25000,
     "description": "7 Up.",
     "image": "/dish-images/u-ng-12.jpg",
-    "sort_order": 67
+    "sort_order": 67,
+    "pairing": "Rau thơm · Nước chấm nhà làm"
   }
 ]
